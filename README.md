@@ -1,203 +1,105 @@
-# Chirpy
+# 星合の空
 
-🌏 English • [简体中文](docs/README_zh-CN.md)
+欢迎访问我的个人主页！下面向你介绍一下我自己吧~
 
-[![Build Status](https://github.com/cotes2020/jekyll-theme-chirpy/workflows/build/badge.svg?branch=master&event=push)](https://github.com/cotes2020/jekyll-theme-chirpy/actions?query=branch%3Amaster+event%3Apush)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8220b926db514f13afc3f02b7f884f4b)](https://app.codacy.com/manual/cotes2020/jekyll-theme-chirpy?utm_source=github.com&utm_medium=referral&utm_content=cotes2020/jekyll-theme-chirpy&utm_campaign=Badge_Grade_Dashboard)
-[![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
-[![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
+<!-- .slide -->
 
-A minimal, sidebar, responsive web design Jekyll theme, focusing on text presentation, aim to help you easily record and share your knowledge. [Live Demo »](https://chirpy.cotes.info)
+## 我的一些联系方式
 
-[![Devices Mockup](https://raw.githubusercontent.com/cotes2020/jekyll-theme-chirpy/master/assets/img/sample/devices-mockup.png)](https://chirpy.cotes.info)
+- Address: **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
+- Phone: **+86 18756280097**
+- Site: **<https://wu-kan.cn>**
 
-## Table of Contents
+<!-- .slide vertical=true -->
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [Support](#support)
-- [License](#license)
+- E-mail:
+  - **[i@wu-kan.cn](mailto:i@wu-kan.cn)**
+  - **[wukan3@mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
+- WeChat: **Wu-\_-Kan**
+- QQ: **942759535**
 
-## Features
+<!-- .slide -->
 
-- Pinned Posts
-- Configurable theme mode
-- Double-level Categories
-- Last modified date for posts
-- Table of Contents
-- Automatically recommend related posts
-- Syntax highlighting
-- Mathematical expressions
-- Search
-- Atom Feeds
-- Disqus Comments
-- Google Analytics
-- GA Pageviews reporting (Advanced)
-- SEO and Performance Optimization
+## 我的一些教育情况
 
-## Installation
+<!-- .slide vertical=true -->
 
-[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub, rename the repository to `USERNAME.github.io` (where `USERNAME` is your GitHub username), and then open terminal and clone the fork to local by:
+School of Data and Computer Science, Sun Yat-sen University, Guangzhou
 
-```terminal
-$ git clone https://github.com/USERNAME/USERNAME.github.io.git -b master --single-branch
-```
+- Bachelor of Computer Science (Supercomputer Class), Sept. 2017 - Jul. 2021(expected)
+  - Principle of Supercomputer
+  - Parallel and Distributed Computing
+  - High Performance Computing
+  - Multicore Computing
 
-### Setting up the local envrionment
+<!-- .slide -->
 
-If you would like to run or build the project on your local machine, please follow the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems` and `Bundler`. 
+## 我的一些项目成果
 
-Before running or building for the first time, please complete the installation of the Jekyll plugins. Go to the root directory of project and run:
+<!-- .slide vertical=true -->
 
-```terminal
-$ bundle install
-```
+- [jekyll-theme-WuK](https://jekyll-theme-WuK.wu-kan.cn/)
+  - 我的个人主页使用的主题样式，也欢迎你用于[搭建自己的页面](https://jekyll-theme-WuK.wu-kan.cn/)~[![Star](https://img.shields.io/github/stars/wu-kan/wu-kan.github.io.svg)](https://github.com/wu-kan/wu-kan.github.io)[![Fork](https://img.shields.io/github/forks/wu-kan/wu-kan.github.io.svg)](https://github.com/wu-kan/wu-kan.github.io/fork)
 
-`bundle` will automatically install all the dependencies specified by `Gemfile`.
+<!-- .slide -->
 
-In order to generate some extra files (_categories_, _tags_ and _last modified list_), we need to use some tool scripts. And they require dependency package [yq](https://github.com/mikefarah/yq#install) to be installed. What's more, if your machine is running Debian or macOS, you also need to install [GNU coreutils](https://www.gnu.org/software/coreutils/).
+## 我的一些成就
 
-- on Debian:
+<!-- .slide vertical=true -->
 
-  ```console
-  $ sudo apt-get install coreutils
-  ```
+- **Gold Medal (Rank 4)**, [CCF Collegiate Computer Systems & Programming Contest](https://wu-kan.cn/_posts/2020-10-17-2020-CCF-CCSP%E7%AB%9E%E8%B5%9B-%E5%90%AB%E5%88%86%E8%B5%9B%E5%8C%BA%E7%AB%9E%E8%B5%9B/), South China Division, Oct. 2020
+- **First Scholarship**, Oct. 2020
+- **Silver Medal (Rank 2)**, The 8th "Intel Cup" [Parallel Application Challenge](http://sdcs.sysu.edu.cn/content/5501), Sept. 2020
+- **First Prize (Rank 3) & Winner Prize (Rank 5)**, [Priority Research Application](https://cas-pra.sugon.com/webnews/detail/205), Aug. 2020
 
-- on macOS:
+<!-- .slide vertical=true -->
 
-  ```console
-  $ brew install coreutils
-  ```
+- **Top 0.05% in 11395**, [The 18th CCF Certified Software Professional](https://wu-kan.cn/_posts/2019-12-16-%E7%AC%AC%E5%8D%81%E5%85%AB%E6%AC%A1CCF%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E8%83%BD%E5%8A%9B%E8%AE%A4%E8%AF%81/), Dec. 2019
+- **Silver Medal**, [ICPC Asia Regional Contest Xuzhou Site](https://wu-kan.cn/_posts/2019-11-04-%E5%86%8D%E8%A7%81-%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/), Nov. 2019
+- **Second Scholarship**, Oct. 2019
+- **First Prize**, China Collegiate Programming Contest, Guangdong Division, May 2019
 
-### Setting up Docker environment (optional)
+<!-- .slide vertical=true -->
 
-If you're a loyal fan of [**Docker**](https://www.docker.com/) or just too lazy to install the packages mentioned in [_Setting up the local envrionment_](#setting-up-the-local-envrionment), please make sure you have **Docker Engine** installed and running, and then get Docker image `jekyll/jekyll` from Docker Hub by the following command:
+- **Third Scholarship**, Oct. 2018
+- **First Prize**, China Collegiate Programming Contest, Guangdong Division, May 2018
 
-```console
-$ docker pull jekyll/jekyll:latest
-```
+<!-- .slide -->
 
-## Usage
+## 我的一些技能
 
-Running [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) requires some extra files, which cannot be generated by Jekyll native commands, so please strictly follow the methods mentioned below to run or deploy your website.
+<!-- .slide vertical=true -->
 
-### Initialization
+- **C/C++**, Familiar
+  - **OpenMP**, Familiar
+  - **MPI**, Familiar&Learning
+  - **CUDA**, Familiar&Learning
+- **Python**, Familiar
 
-Go to the root directory of the project and start initialization:
+<!-- .slide vertical=true -->
 
-```console
-$ bash tools/init.sh
-```
+- **Markdown**, Familiar
+- **LaTex**, Familiar
+- **Linux**, Familiar&Learning
+- **Git**, Familiar
+- **VSCode**, Familiar
 
-> **Note**: If you not intend to deploy it on GitHub Pages, append parameter option `--no-gh` at the end of the above command.
+<!-- .slide -->
 
-What it does is:
+## 我的一些领导力
 
-1. Remove some files or directories from your repository:
+TBD
 
-    - `.travis.yml`
-    - files under `_posts`
-    - folder `docs`
+<!-- .slide -->
 
-2. If you use the `--no-gh` option, the directory `.github` will be deleted. Otherwise, setup the GitHub Action workflow by removing extension `.hook` of `.github/workflows/pages-deploy.yml.hook`, and then remove the other files and directories in folder `.github`. 
+## 我的一些文字
 
-3. Automatically create a commit to save the changes.
+- [基于 Jekyll 搭建个人博客](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+- [我的算法竞赛模板](https://wu-kan.cn/_posts/2019-02-04-%E6%88%91%E7%9A%84%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%A8%A1%E6%9D%BF/)
+- [这一年的一点感想](https://wu-kan.cn/_posts/2019-07-18-%E8%BF%99%E4%B8%80%E5%B9%B4%E7%9A%84%E4%B8%80%E7%82%B9%E6%84%9F%E6%83%B3/)
 
-### Configuration
-
-Generally, go to `_config.yml` and configure the variables as needed. Some of them are typical options:
-
-- `url`
-- `avatar`
-- `timezone`
-- `theme_mode`
-
-### Run Locally
-
-You may want to preview the site contents before publishing, so just run it by:
-
-```terminal
-$ bash tools/run.sh
-```
-
-Then open a browser and visit to <http://localhost:4000>.
-
-Few days later, you may find that the file changes does not refresh in real time by using `run.sh`. Don't worry, the advanced option `-r` (or `--realtime`) will solve this problem, but it requires [**fswatch**](http://emcrisostomo.github.io/fswatch/) to be installed on your machine.
-
-### Run on Docker
-
-Run the site on Docker with the following command:
-
-```terminal
-$ docker run --rm -it \
-    --volume="$PWD:/srv/jekyll" \
-    -p 4000:4000 jekyll/jekyll \
-    bash tools/run.sh --docker
-```
-
-Please note that on Docker containers, you'll lose the real-time refresh feature.
-
-### Deployment
-
-Before the deployment begins, checkout the file `_config.yml` and make sure the `url` is configured correctly. Furthermore, if you prefer the [_project site_](https://help.github.com/en/github/working-with-github-pages/about-github-pages#types-of-github-pages-sites) and don't use a custom domain, or you want to visit your website with a base url on a web server other than **GitHub Pages**, remember to change the `baseurl` to your project name that starting with a slash. For example, `/project`.
-
-Assuming you have already gone through the [initialization](#initialization), you can now choose ONE of the following methods to deploy your website.
-
-#### Deploy on GitHub Pages
-
-For security reasons, GitHub Pages build runs on `safe` mode, which restricts us from using tool scripts to generate additional page files. Therefore, we can use **GitHub Actions** to build the site, store the built site files on a new branch, and use that branch as the source of the Pages service.
-
-1. Push any commit to `origin/master` to trigger the GitHub Actions workflow. Once the build is complete and successful, a new remote branch named `gh-pages` will appear to store the built site files.
-
-2. Browse to your repository on GitHub and choose the branch `gh-pages` as the [publishing source](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) throught _Settings_ → _Options_ → _GitHub Pages_:
-    ![gh-pages-sources](https://raw.githubusercontent.com/cotes2020/jekyll-theme-chirpy/master/assets/img/sample/gh-pages-sources.png)
-
-3. Visit your website at the address indicated by GitHub.
-
-#### Deploy on Other Platforms
-
-On platforms other than GitHub, we cannot enjoy the convenience of **GitHub Actions**. Therefore, we should build the site locally (or on some other 3rd-party CI platform) and then put the site files on the server.
-
-Go to the root of the source project, build your site by:
-
-```console
-$ bash tools/build.sh
-```
-
-> **Note**: The output path can be specified with the option `-d`.
-
-Or, build the site with Docker by:
-
-```terminal
-$ docker run --rm -it \
-    --volume="$PWD:/srv/jekyll" \
-    jekyll/jekyll \
-    bash tools/build.sh --docker
-```
-
-Unless you specified the output path, the generated site files will be placed in folder `_site` of the project's root directory. Now you should upload those files to your web server.
-
-### Documentation
-
-For more details and the better reading experience, please check out the [tutorials on demo site](https://chirpy.cotes.info/categories/tutorial/). In the meanwhile, a copy of the tutorial is also available on the [Wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
-## Contributing
-
-The old saying, "Two heads are better than one." Consequently, welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
-
-## Credits
-
-This theme is mainly built with [Jekyll](https://jekyllrb.com/) ecosystem, [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) and some other wonderful tools (their copyright information can be found in the relevant files).
-
-:tada: Thanks to all the volunteers who contributed to this project, their GitHub IDs are on [this list](https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors). Also, I won't forget those guys who submitted the issues or unmerged PR because they reported bugs, shared ideas or inspired me to write more readable documentation.
-
-## Support
-
-If you enjoy this theme or find it helpful, please consider becoming my sponsor, I'd really appreciate it! Click the button <kbd>:heart: Sponsor</kbd> at the top of the [Home Page](https://github.com/cotes2020/jekyll-theme-chirpy) and choose a link that suits you to donate; this will encourage and help me better maintain the project.
-
-## License
-
-This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
+<!-- .slide vertical=true -->
+
+- [再见，算法竞赛！](https://wu-kan.cn/_posts/2019-11-04-%E5%86%8D%E8%A7%81-%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/)
+- [Markdown 写作心得](https://wu-kan.cn/_posts/2020-01-18-Markdown%E5%86%99%E4%BD%9C%E5%BF%83%E5%BE%97/)
+- [今日此时所想之事](https://wu-kan.cn/_posts/2020-01-24-%E4%BB%8A%E6%97%A5%E6%AD%A4%E6%97%B6%E6%89%80%E6%83%B3%E4%B9%8B%E4%BA%8B/)
