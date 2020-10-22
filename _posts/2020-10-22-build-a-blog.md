@@ -60,7 +60,7 @@ https://github.com/
 
 * step1
 
-![step1](./images/1.png)
+![step1](/images/1.png)
 
 1. 点击右上角的 sign up（注册），然后会跳到注册页面.
 2. 第一行是填写注册的名字（name）.
@@ -76,7 +76,7 @@ https://github.com/
 
 * step3
 
-![step1](./images/3.png)
+![step1](../images/3.png)
 
 完善你的信息（tailor your experience），就是填写一些你的简历。到此，账号差不多注册完了.
 
