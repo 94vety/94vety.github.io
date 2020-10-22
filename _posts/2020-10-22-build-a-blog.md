@@ -62,6 +62,8 @@ https://github.com/
 
 ![step1](http://qillgfucp.hn-bkt.clouddn.com/1.png)
 
+![Desktop Preview](http://iissnan.com/nexus/next/desktop-preview.png)
+
 1. 点击右上角的 sign up（注册），然后会跳到注册页面.
 2. 第一行是填写注册的名字（name）.
 3. 第二行是填注册的邮箱（email）.
