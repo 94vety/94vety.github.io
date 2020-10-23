@@ -110,8 +110,8 @@ http://jekyllthemes.org/
 
 #### 修改主题
 
-从官网下载下来的压缩包，进行解压，就可以直接将文件传到 github 仓库搭建博客了.（将文件传上 github，去掉文件夹）.<br>
-如果懂得相应的代码的，其实也可以适当修改代码.<br>
+1. 从官网下载下来的压缩包，进行解压，就可以直接将文件传到 github 仓库搭建博客了.（将文件传上 github，去掉文件夹）.<br>
+2. 如果懂得相应的代码的，其实也可以适当修改代码.<br>
 
 * github 上传
 
@@ -119,5 +119,16 @@ http://jekyllthemes.org/
 
 * 修改文件 config.yml 文件（里面有自己的基本信息）
 
-## 未写完，先将文章发布测试一下博客功能
+#### 查看主题
+
+* 然后就可以 username.github.io 查看自己的博客.
+
+![step2](https://s1.ax1x.com/2020/10/23/BAJUqP.png)
+
+## 参考
+
+* 对下述文章表示感谢
+
+https://www.cnblogs.com/wxyww/p/xiaoshujiang.html
+
 
