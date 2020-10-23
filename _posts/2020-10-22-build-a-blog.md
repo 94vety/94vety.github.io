@@ -56,13 +56,12 @@ nvm list 查看 nvm 安装的 node 版本.<br>
 #### 申请账号
 
 * github 官网
+
 https://github.com/
 
 * step1
 
-![step1](http://qillgfucp.hn-bkt.clouddn.com/1.png)
-
-![Desktop Preview](http://iissnan.com/nexus/next/desktop-preview.png)
+![step1](https://s1.ax1x.com/2020/10/23/BACbD0.png)
 
 1. 点击右上角的 sign up（注册），然后会跳到注册页面.
 2. 第一行是填写注册的名字（name）.
@@ -72,15 +71,17 @@ https://github.com/
 
 * step2
 
-![step1](http://qillgfucp.hn-bkt.clouddn.com/2.png)
+![step1](https://s1.ax1x.com/2020/10/23/BA9om6.png)
 
 这里是选择计划，这里有两个选择，一是创建公开仓库（repository），而是创建个人仓库（private），但创建个人需要费用。选好后，点击 continue，到此，创建完毕.
 
 * step3
 
-![step1](http://qillgfucp.hn-bkt.clouddn.com/3.png)
+![step1](https://s1.ax1x.com/2020/10/23/BA97TO.png)
 
 完善你的信息（tailor your experience），就是填写一些你的简历。到此，账号差不多注册完了.
+
+#### 创建仓库
 
 ## 未写完，先将文章发布测试一下博客功能
 
