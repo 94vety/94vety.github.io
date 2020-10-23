@@ -71,17 +71,53 @@ https://github.com/
 
 * step2
 
-![step1](https://s1.ax1x.com/2020/10/23/BA9om6.png)
+![step2](https://s1.ax1x.com/2020/10/23/BA9om6.png)
 
 这里是选择计划，这里有两个选择，一是创建公开仓库（repository），而是创建个人仓库（private），但创建个人需要费用。选好后，点击 continue，到此，创建完毕.
 
 * step3
 
-![step1](https://s1.ax1x.com/2020/10/23/BA97TO.png)
+![step3](https://s1.ax1x.com/2020/10/23/BA97TO.png)
 
 完善你的信息（tailor your experience），就是填写一些你的简历。到此，账号差不多注册完了.
 
 #### 创建仓库
+
+* step1
+
+![step1](https://s1.ax1x.com/2020/10/23/BAl6Y9.png)
+
+点击自己首页右上角的 'Your repositories' 进入我的仓库页面.
+点击仓库页面中的 'New' 创建新仓库.
+
+* step2
+
+![step2](https://s1.ax1x.com/2020/10/23/BAl2S1.png)
+
+1. 'Respository name' 填你的 github 名加 .github.io 这个是作为博客访问的地址.<br>
+2. 下面选择 'Public' 对外公开（毕竟写博客加是为了给别人看的嘛）.<br>
+3. 'Initialize this respository with:' 我选择的 'Add a README file' 这样创建的仓库中只有一个 readme 文件.<br>
+
+![step2](https://s1.ax1x.com/2020/10/23/BAlcWR.png)
+
+## 主题
+
+#### 挑选主题
+
+* jekyll 主题官网
+
+http://jekyllthemes.org/
+
+#### 修改主题
+
+从官网下载下来的压缩包，进行解压，就可以直接将文件传到 github 仓库搭建博客了.（将文件传上 github，去掉文件夹）.<br>
+如果懂得相应的代码的，其实也可以适当修改代码.<br>
+
+* github 上传
+
+![step2](https://s1.ax1x.com/2020/10/23/BAGR4e.png)
+
+* 修改文件 config.yml 文件（里面有自己的基本信息）
 
 ## 未写完，先将文章发布测试一下博客功能
 
