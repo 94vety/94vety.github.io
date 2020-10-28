@@ -1,7 +1,8 @@
 ---
 title: 搭建博客
 description: 从无到有，搭建博客.
-tags: 
+tags:
+- Build
 ---
 
 ## 推荐
