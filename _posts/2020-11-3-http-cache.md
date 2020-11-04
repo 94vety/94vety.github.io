@@ -24,7 +24,7 @@ Cache-Control: max-age=0 表示有缓存也会重新请求.<br>
 1. 查看缓存是否有 Cache-Control 的 s-maxage 或 max-age 指令，若有，则使用响应报文生成时间 Date + s-maxage/max-age 获得过期时间，再与当前时间进行对比（s-maxage 适用于多用户使用的公共缓存服务器）.<br>
 2. 如果没有 Cache-Control 的 s-maxage 或 max-age 指令，则比较 Expries 中的过期时间与当前时间，Expries 是一个绝对时间.<br>
 
-<font color='red'>注意：在 HTTP/1.1 中，当首部字段 Cache-Control 有指定 s-maxage 或 max-age 指令，比起首部字段 Expries，会优先处理 s-maxage 或 max-age.</font>
+**<font color='red'>注意：在 HTTP/1.1 中，当首部字段 Cache-Control 有指定 s-maxage 或 max-age 指令，比起首部字段 Expries，会优先处理 s-maxage 或 max-age.</font>**
 
 
 
