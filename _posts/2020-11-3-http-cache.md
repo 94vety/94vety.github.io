@@ -13,6 +13,9 @@ tags:
 2. **协商缓存**：浏览器发送请求到服务器，服务器判定是否可以使用本地缓存.<br>
 3. **联系与区别**：两种缓存方式最终使用的都是本地缓存，前者无需与服务器交互，后者需要.<br>
 
+**HTTP1.0** Last-Modified、Expries<br>
+**HTTP1.1** ETag、Cache-Control<br>
+
 ***
 
 ## 强缓存
@@ -25,6 +28,10 @@ Cache-Control: max-age=0 表示有缓存也会重新请求.<br>
 2. 如果没有 Cache-Control 的 s-maxage 或 max-age 指令，则比较 Expries 中的过期时间与当前时间，Expries 是一个绝对时间.<br>
 
 **<font color='red'>注意：在 HTTP/1.1 中，当首部字段 Cache-Control 有指定 s-maxage 或 max-age 指令，比起首部字段 Expries，会优先处理 s-maxage 或 max-age.</font>**
+
+**另外几个 Cache-Control 的常用命令**<br>
+
+
 
 
 
