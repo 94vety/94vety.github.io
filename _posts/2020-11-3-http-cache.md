@@ -16,6 +16,8 @@ tags:
 **HTTP1.0** Last-Modified、Expries<br>
 **HTTP1.1** ETag、Cache-Control<br>
 
+![http缓存](https://s1.ax1x.com/2020/11/06/BWXAjH.png)
+
 ***
 
 ## 强缓存
