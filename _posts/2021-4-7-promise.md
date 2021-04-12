@@ -169,6 +169,109 @@ class Promise {
 1. 为了达成链式，我们默认在第一个 ```then``` 里返回一个 ```promise```，也就是说在 ```then``` 里面返回一个新的 ```promise```，```promise2 = new Promise((resolve, reject) => {})```.
     - 将这个 ```promise2``` 返回的值传递到下一个 ```then``` 中.
     - 如果返回一个普通的值，则将普通的值传递给下一个 ```then``` 中.
+2. 当我们在第一个 ```then``` 中 ```return``` 了一个参数，这个 ```return``` 出来的新的 ```promise``` 就是 ```onFulfilled()``` 或 ```onRejected()``` 的值. 规定 ```onFulfilled()``` 或 ```onRejected()``` 的值，即第一个 ```then``` 返回的值，叫做 ```x```，判断 ```x``` 的函数叫做 ```resolvePromise```.
+    - 首先，要看 ```x``` 是不是 ```promise```.
+    - 如果是 ```promise```，则取它的结果，作为新的 ```promise2``` 成功的结果.
+    - 如果是普通值，直接作为 ```promise2``` 成功的结果.
+    - 所以要比较 ```x``` 和 ```promise2```.
+    - ```resolvePromise``` 的参数有 ```promise2```（默认返回的 ```promise```）、```x```（我们自己的 ```return``` 对象）、```resolve```、```reject```.
+    - ```resolve``` 和 ```reject``` 是 ```promise2``` 的.
+
+```bash
+class Promise {
+    constructor(executor) {
+        this.state = 'pending';
+        this.value = undefined;
+        this.reason = undefined;
+
+        this.onResolvedCallbacks = [];
+        this.onRejectedCallbacks = [];
+
+        let resolve = value => {
+            if (this.state = 'pending') {
+                this.state = 'resolved';
+                this.value = value;
+                this.onResolvedCallbacks.forEach(fn => fn())
+            }
+        }
+
+        let reject = reason => {
+            if (this.state = 'pending') {
+                this.state = 'rejected';
+                this.reason = reason;
+                this.onRejectedCallbacks.forEach(fn => fn())
+            }
+        }
+
+        try {
+            executor(resolve, reject)
+        } catch (err) {
+            reject(err)
+        }
+    }
+
+    then(onFulfilled, onRejected) {
+        let promise2 = new Promise((resolve, reject) => {
+            if (this.state === 'fulfilled') {
+                let x = onFulfilled(this.value)
+                resolvePromise(promise2, x, resolve, reject)
+            };
+
+            if (this.state === 'rejected') {
+                let x = onRejected(this.reason)
+                resolvePromise(promise2, x, resolve, reject)
+            };
+
+            if (this.state === 'pending') {
+                this.onResolvedCallbacks.push(() => {
+                    let x = onFulfilled(this.value);
+                    resolvePromise(promise2, x, resolve, reject)
+                });
+
+                this.onRejectedCallbacks.push(() => {
+                    let x = onRejected(this.reason);
+                    resolvePromise(promise2, x, resolve, reject)
+                })
+            }
+        })
+
+        return promise2
+    }
+}
+```
+
+***
+
+# 完成 resolvePromise 函数
+
+如果 ```x === promise2```，则会造成循环引用，自己等待自己完成，浏览器会报 ```循环引用``` 错误.<br>
+
+```bash
+let p = new Promise(resolve => {
+    resolve(0)
+})
+
+var p2 = p.then(data => {
+    # 循环引用
+    return p2
+})
+```
+
+1. 判断 ```x```.
+    - ```x``` 不能是 ```null```.
+    - ```x``` 是普通值，直接 ```resolve(x)```.
+    - ```x``` 是对象或者函数（包括 ```promise```），```let then = x.then``` .
+2. 当 ```x``` 是对象或者函数（默认 ```promise```）.
+    - 声明了 ```then```.
+    - 如果取 ```then``` 报错，则走 ```reject()```.
+    - 如果 ```then``` 是个函数，则用 ```call``` 执行 ```then```，第一个参数是 ```this```，后面是成功的回调和失败的回调.
+    - 如果成功的回调还是 ```promise```，就递归继续解析.
+3. 成功和失败只能调用一个 所以设定一个 ```called``` 来防止多次调用.
+
+```bash
+```
+
+
 
 
 
