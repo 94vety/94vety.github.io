@@ -28,8 +28,8 @@ func()
 
 # await
 
-`await` 后面可以跟任何 **JS** 表达式，虽说 `await` 可以等很多类型的东西，但是它最主要的意图是等待 `Promise` 对象的状态被 `resolved`.<br>
-如果 `await` 的是 `promise` 对象会造成异步函数停止执行并且等待 `promise` 的解决，如果等到的是正常的表达式则立即执行.
+1. `await` 后面可以跟任何 **JS** 表达式，虽说 `await` 可以等很多类型的东西，但是它最主要的意图是等待 `Promise` 对象的状态被 `resolved`.<br>
+2. 如果 `await` 的是 `promise` 对象会造成异步函数停止执行并且等待 `promise` 的解决，如果等到的是正常的表达式则立即执行.
 
 ```bash
 function sleep(second) {
