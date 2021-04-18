@@ -1,5 +1,5 @@
 ---
-title: promise
+title: 手写 promise
 description: promise 基础，手写 promise.
 tags:
 - JavaScript
