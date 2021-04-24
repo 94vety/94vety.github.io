@@ -32,10 +32,10 @@ Cache-Control: max-age=0 表示有缓存也会重新请求.<br>
 **<font color='red'>注意：在 HTTP/1.1 中，当首部字段 Cache-Control 有指定 s-maxage 或 max-age 指令，比起首部字段 Expries，会优先处理 s-maxage 或 max-age.</font>**
 
 **另外几个 Cache-Control 的常用命令**<br>
-1. no-cache：含义是不使用本地缓存<br>
-2. no-store：禁用本地缓存<br>
-3. public：表明其他用户也可以使用缓存，适用于公共缓存服务器的情况<br>
-4. private：表明只有特定用户才能使用缓存，适用于公共缓存服务器的情况<br>
+1. no-cache：可以在本地缓存，可以在代理服务器缓存，但是这个缓存要服务器验证才可以使用.<br>
+2. no-store：彻底得禁用缓冲，本地和代理服务器都不缓冲.<br>
+3. public：表明其他用户也可以使用缓存，适用于公共缓存服务器的情况.<br>
+4. private：表明只有特定用户才能使用缓存，适用于公共缓存服务器的情况.<br>
 
 **<font color='red'>若缓存未过期，返回状态码为 200，则直接从本地读取缓存，这就完成了整个强缓存的过程.</font>**
 
