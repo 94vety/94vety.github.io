@@ -634,6 +634,7 @@ class Welcome extends React.Component {
 1. **syntax 语法：**
     - `function component` 语法更简单，只需要传入一个 `props` 参数，返回一个 `React` 片段。
     - `class component` 要求先继承 `React.Component` 然后常见一个 `render` 方法，在 `render` 里面返回 `react` 片段。
+
 ```js
 // function component
 function Welcome(props) {
