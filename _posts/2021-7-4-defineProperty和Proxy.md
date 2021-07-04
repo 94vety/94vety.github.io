@@ -181,7 +181,7 @@ console.log(arc.getArchive())
 
 ***
 
-# watch API
+## watch API
 
 既然可以监控数据的变化，那么当数据改变的时候，自动进行渲染工作.<br>
 
