@@ -242,6 +242,8 @@ render() {
 // reduce setState 后的 number 2
 ```
 
+> 在 '异步' 中如果对同一个值进行多次 setState，setState 的批量更新策略会对其进行覆盖，取最后一次的执行
+
 ## 调用 setState 之后
 
 ![setState 工作流](https://z3.ax1x.com/2021/06/13/2Idzk9.png)
